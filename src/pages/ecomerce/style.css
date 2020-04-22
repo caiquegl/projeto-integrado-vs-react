@@ -1,0 +1,83 @@
+.pai-ecomerce{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.filter{
+    width: 100%;
+    max-width: 170px;
+    background-color: #7BBBD0;
+    border-radius: 10px;
+    box-shadow: 7px 7px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+}
+.filter h2{
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+.filter h3{
+    padding: 0 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.filter ul li{
+    list-style: none;
+    padding: 0 0 0 50px;
+    line-height: 30px;
+}
+.box-produtos{
+    width: 100%;
+    max-width: 820px;
+}
+.seletor{
+    box-shadow: 7px 7px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #7BBBD0;
+    font-size: 15px;
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#bg-nested-dropdown{
+    background-color: #EEEEEE;
+    border: 0.3px solid #000000;
+    color: black;
+}
+.button-ecomercer{
+    background-color: #EEEEEE;
+    border: 0.3px solid #000000;
+    color: black;
+}
+.button-ecomercer:hover{
+    background-color: #7BBBD0;
+    border: 0.3px solid black;
+}
+#margin{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+.produtos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    max-height: 900px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.card{
+    background-color: #7BBBD0;
+    padding: 20px;
+    width: 100%;
+    max-width: 225px;
+    height: 332px;
+    margin: 20px;
+}
